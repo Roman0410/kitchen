@@ -1,0 +1,75 @@
+.hero-title {
+  color: #fff;
+  font-size: 120px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 95%; /* 121.6px */
+  letter-spacing: -3.84px;
+  max-width: 1100px;
+  @media screen and (max-width: 1024px) {
+    font-size: 76px;
+  }
+  @media screen and (max-width: 500px) {
+    font-size: 58px;
+  }
+  span {
+    font-family: NyghtSerif;
+  }
+}
+.section-subtitle {
+  color: var(--242424, #242424);
+  text-align: center;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%;
+  @media screen and (max-width: 1024px) {
+    font-size: 20px;
+  }
+  @media screen and (max-width: 650px) {
+    font-size: 16px;
+  }
+}
+.section-title {
+  color: var(--242424, #242424);
+  text-align: center;
+  font-size: 128px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 95%; /* 121.6px */
+  letter-spacing: -3.84px;
+  span {
+    color: var(--accent-color);
+    font-family: NyghtSerif;
+  }
+  .black {
+    margin: 0 5px;
+    display: inline-block;
+  }
+  @media screen and (max-width: 1024px) {
+    font-size: 64px;
+  }
+  @media screen and (max-width: 650px) {
+    font-size: 40px;
+  }
+}
+
+.text {
+  color: #242424;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  @media screen and (max-width: 850px) {
+    font-size: 16px;
+  }
+  @media screen and (max-width: 500px) {
+    font-size: 14px;
+  }
+}
+.section-main {
+  color: var(--black, #1c1919);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 110.5%;
+}
